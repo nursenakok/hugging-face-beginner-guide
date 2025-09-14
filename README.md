@@ -16,3 +16,9 @@ This repository contains personal experiments and notes on Hugging Face Transfor
 - Text Generation
 - Summarization
 - Fill-Mask
+
+
+## Resources
+
+- [Hugging Face Transformers Documentation](https://huggingface.co/docs/transformers/)
+- [Hugging Face Course](https://huggingface.co/course/chapter1)
