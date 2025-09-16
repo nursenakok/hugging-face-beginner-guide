@@ -5,7 +5,7 @@ This repository contains personal experiments and notes on Hugging Face Transfor
 
 ---
 
-# PART I: Working with Pipelines (huggingface_pipeline_ipynb)
+# PART I: Working with Pipelines 
 
 ## Available Pipelines
 
@@ -18,7 +18,7 @@ This repository contains personal experiments and notes on Hugging Face Transfor
 - Fill-Mask
 
 
-# PART II: Tokenizer 
+# PART II: Tokenizer
 
 ## Overview
 
