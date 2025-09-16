@@ -24,6 +24,7 @@ This repository contains personal experiments and notes on Hugging Face Transfor
 
 What is the primary function of a tokenizer in the contex of using a model like BERT?
     The primary function of a tokenizer in the context of models like BERT is to convert raw text into a format that the model can understand. Models don’t process plain text—they work with numbers. Tokenizers do     this by:
+    
     1. Splitting text into tokens (words or subwords): Example: "I'm learning" → ['[CLS]','I', "'", 'm', 'learning','[SEP]']
 
     2. Mapping tokens to numerical IDs based on the model’s vocabulary: Example: ['[CLS]','I', "'", 'm', 'learning','[SEP]'] → [101,146, 112, 182, 3776,102]
