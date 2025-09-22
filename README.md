@@ -5,7 +5,7 @@ This repository contains personal experiments and notes on Hugging Face Transfor
 
 ---
 
-# PART I: Working with Pipelines 
+## PART I: Working with Pipelines 
 
 ### Available Pipelines
 
@@ -18,7 +18,7 @@ This repository contains personal experiments and notes on Hugging Face Transfor
 - Fill-Mask
 
 
-# PART II: Tokenizer
+## PART II: Tokenizer
 
 ### Overview
 
@@ -40,7 +40,7 @@ What is the primary function of a tokenizer in the contex of using a model like 
     4. Allowing conversion back to text (decoding), if needed
 
 
-# PART III: Attention Mechanism 
+## PART III: Attention Mechanism 
 
 ### Required Libraries
 
@@ -54,7 +54,7 @@ What is the primary function of a tokenizer in the contex of using a model like 
 - Understanding how BERT processes language
 
 
-## Resources
+### Resources
 
 - [Hugging Face Transformers Documentation](https://huggingface.co/docs/transformers/)
 - [Hugging Face Course](https://huggingface.co/course/chapter1)
