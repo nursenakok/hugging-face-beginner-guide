@@ -1,13 +1,13 @@
 # Hugging Face Beginner Guide
 
-A beginner-friendly guide to Hugging Face Transformers, with example notebooks for pipelines, tokenizers, and basic training.  
+A beginner-friendly guide to Hugging Face Transformers, with example notebooks for pipelines, tokenizers, attention mechanism.  
 This repository contains personal experiments and notes on Hugging Face Transformers, created for self-learning purposes. It is not intended as formal educational material.
 
 ---
 
 # PART I: Working with Pipelines 
 
-## Available Pipelines
+### Available Pipelines
 
 - Sentiment Analysis
 - Named Entity Recognition (NER)
@@ -20,7 +20,7 @@ This repository contains personal experiments and notes on Hugging Face Transfor
 
 # PART II: Tokenizer
 
-## Overview
+### Overview
 
 What is the primary function of a tokenizer in the contex of using a model like BERT?
     The primary function of a tokenizer in the context of models like BERT is to convert raw text into a format that the model can understand. Models don’t process plain text—they work with numbers. Tokenizers do     this by:
@@ -39,7 +39,24 @@ What is the primary function of a tokenizer in the contex of using a model like 
 
     4. Allowing conversion back to text (decoding), if needed
 
+
+# PART III: Attention Mechanism 
+
+### Required Libraries
+
+!pip install transformers torch matplotlib seaborn
+
+### What You'll Learn
+
+- How self-attention works in transformer models
+- Visualizing attention weights as heatmaps
+- Comparing different attention heads and layers
+- Understanding how BERT processes language
+
+
 ## Resources
 
 - [Hugging Face Transformers Documentation](https://huggingface.co/docs/transformers/)
 - [Hugging Face Course](https://huggingface.co/course/chapter1)
+- [Transformers Library](https://github.com/huggingface/transformers)
+- [Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
