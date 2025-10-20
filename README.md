@@ -65,6 +65,7 @@ No additional libraries are needed, as tokenization is handled entirely by trans
 What You'll Learn:
 How self-attention works in transformers, visualized through heatmaps of attention weights.
 
+<image-card alt="BERT - First Layer, First Head Attention Weights" src="./self-attention_heatmap.PNG" ></image-card>
 
 ### What You'll Learn
 
