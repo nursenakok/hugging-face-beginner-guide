@@ -65,7 +65,14 @@ No additional libraries are needed, as tokenization is handled entirely by trans
 What You'll Learn:
 How self-attention works in transformers, visualized through heatmaps of attention weights.
 
-<image-card alt="BERT - First Layer, First Head Attention Weights" src="./self-attention_heatmap.PNG" ></image-card>
+![BERT - First Layer, First Head Attention Weights](images/self-attention_heatmap.PNG)
+
+Contribution to the Attention Mechanism
+This visual is an excellent tool for understanding how the attention mechanism works because:
+
+Highlights Relationships: It visualizes the relationships between tokens (e.g., the 0.21 weight between "sat" and "on"), showing how the model analyzes the structure of the sentence.
+Explains Weight Distribution: The distribution of attention weights reveals which words the model focuses on more (e.g., "mat" and "[CLS]") and which it overlooks (e.g., the low 0.03 weight between "the" and "the").
+Training and Error Analysis: Developers can use such maps to identify if the model’s attention is misplaced and improve the model accordingly.
 
 ### What You'll Learn
 
