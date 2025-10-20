@@ -7,18 +7,31 @@ This repository contains personal experiments and notes on Hugging Face Transfor
 
 ## PART I: Working with Pipelines 
 
-### Available Pipelines
+What You'll Learn: 
+Use pre-trained models for common NLP tasks with minimal code. Pipelines simplify complex tasks like sentiment analysis or text generation.
 
-- Sentiment Analysis
-- Named Entity Recognition (NER)
-- Zero-Shot Classification
-- Question Answering
-- Text Generation
-- Summarization
-- Fill-Mask
+### Available Pipelines 
 
+- Sentiment Analysis: Predicts whether text expresses positive or negative sentiment.
+- Named Entity Recognition (NER): Identifies entities like people, organizations, or locations in text.
+- Zero-Shot Classification: Classifies text into custom categories without additional training.
+- Question Answering: Extracts answers from a given context based on a question.
+- Text Generation: Generates creative text continuations from a prompt.
+- Summarization: Condenses long text into a concise summary.
+- Fill-Mask: Predicts missing words in a sentence using a masked language model.
+
+### Code Context:
+Your pipeline code uses the transformers library for all tasks (Sentiment Analysis, NER, Zero-Shot Classification, Question Answering, Text Generation, Summarization, Fill-Mask).
+
+### Required Libraries:
+
+transformers: For loading and running Hugging Face pipelines.
+No additional libraries are needed since the pipelines rely solely on transformers (and its dependencies like torch or tensorflow, which are automatically installed).
 
 ## PART II: Tokenizer
+
+What You'll Learn: 
+How tokenizers convert text into model-ready inputs (tokens → IDs → attention masks).
 
 ### Overview
 
@@ -39,12 +52,19 @@ What is the primary function of a tokenizer in the contex of using a model like 
 
     4. Allowing conversion back to text (decoding), if needed
 
+### Code Context:
+Your tokenizer code uses AutoTokenizer from the transformers library to tokenize text and handle special tokens, attention masks, etc.
+
+### Required Libraries:
+
+transformers: For the AutoTokenizer class and tokenization functions.
+No additional libraries are needed, as tokenization is handled entirely by transformers.
 
 ## PART III: Attention Mechanism 
 
-### Required Libraries
+What You'll Learn:
+How self-attention works in transformers, visualized through heatmaps of attention weights.
 
-!pip install transformers torch matplotlib seaborn
 
 ### What You'll Learn
 
@@ -53,6 +73,16 @@ What is the primary function of a tokenizer in the contex of using a model like 
 - Comparing different attention heads and layers
 - Understanding how BERT processes language
 
+### Code Context:
+Your attention mechanism code uses transformers for the model and tokenizer, torch for model inference, and matplotlib and seaborn for visualizing attention weights as heatmaps. numpy is also used for handling attention weight arrays.
+
+### Required Libraries:
+
+transformers: For loading the model (AutoModel) and tokenizer.
+torch: For running model inference and handling tensors.
+matplotlib: For creating plots.
+seaborn: For generating heatmaps.
+numpy: For array operations on attention weights.
 
 ### Resources
 
